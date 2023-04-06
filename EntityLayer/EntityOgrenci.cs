@@ -9,7 +9,7 @@ namespace EntityLayer
     public class EntityOgrenci
     {
         private string ad;
-        public string Ad
+        public string AD
         {
             get
             { return ad; }
@@ -20,7 +20,7 @@ namespace EntityLayer
 
 
         private string soyad;
-        public string Soyad
+        public string SOYAD
         {
             get
             {return soyad;}
@@ -29,8 +29,8 @@ namespace EntityLayer
             {soyad = value;}
         }
 
-        private int id;
-        public int Id
+        private int ogrid;
+        public int OGRID
         {
             get
             {return id;}
@@ -40,7 +40,7 @@ namespace EntityLayer
         }
 
         private string numara;
-        public string Numara
+        public string NUMARA
         {
             get
             {return numara;}
@@ -50,7 +50,7 @@ namespace EntityLayer
         }
 
         private string fotograf;
-        public string Fotograf
+        public string FOTOGRAF
         {
             get
             {return fotograf;}
@@ -59,7 +59,7 @@ namespace EntityLayer
         }
 
         private double bakiye;
-        public double Bakiye
+        public double BAKIYE
         {
             get
             {return bakiye;}
