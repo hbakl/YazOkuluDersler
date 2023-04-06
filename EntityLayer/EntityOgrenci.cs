@@ -68,6 +68,21 @@ namespace EntityLayer
             {bakiye = value;}
         }
 
+        private string sifre;
+        public string SIFRE
+        {
+            get
+            {
+                return sifre;
+            }
+
+            set
+            {
+                sifre = value;
+            }
+        }
+
+
 
     }
 }
