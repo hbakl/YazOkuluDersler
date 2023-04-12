@@ -10,7 +10,7 @@ namespace DataAccessLayer
 {
     public class Baglanti
     {
-        public static SqlConnection bgl = new SqlConnection(@"Data Source=DESKTOP-KSDVUIV\SQLEXPRESS;Initial Catalog=DbYazOkulu;Integrated Security=True");
+        public static SqlConnection bgl = new SqlConnection(@"Data Source=DESKTOP-KSDVUIV\SQLEXPRESS;Initial Catalog=DbYazOkulu;Integrated Security=True;MultipleActiveResultSets=True");
 
     }
 }
