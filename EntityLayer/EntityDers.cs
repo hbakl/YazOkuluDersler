@@ -12,10 +12,10 @@ namespace EntityLayer
         public string DERSAD
         {
             get
-            { return DersAd; }
+            { return dersad; }
 
             set
-            { DersAd = value; }
+            { dersad = value; }
         }
 
 
@@ -53,12 +53,12 @@ namespace EntityLayer
         {
             get
             {
-                return id;
+                return dersid;
             }
 
             set
             {
-                id = value;
+                dersid = value;
             }
         }
 

@@ -33,10 +33,10 @@ namespace EntityLayer
         public int OGRID
         {
             get
-            {return id;}
+            {return ogrid; }
 
             set
-            {id = value;}
+            { ogrid = value;}
         }
 
         private string numara;
